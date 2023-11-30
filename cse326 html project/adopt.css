@@ -1,0 +1,115 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.toppic {
+    position: relative;
+    display: inline-block;
+}
+
+
+.toppic img {
+    display: block;
+    width: 1880px;
+    height:1000px;
+}
+
+.buttop{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.2);
+    font-size: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-radius:30px;
+    border-style: groove;
+    cursor:pointer;
+    color:white;
+}
+.buttop1{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.2);
+    font-size: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-radius:30px;
+    border-style: groove;
+    cursor:pointer;
+    color:white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto; 
+    grid-gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border:2px solid #333;
+    border-radius: 20px;
+}
+
+.grid-item img {
+    max-width: 100%; 
+    border-radius: 8px; 
+    height:400px;
+    width:450px
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+.adopt{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #333;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+.message{
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 40px;
+    text-align: center;
+}
+footer {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    bottom: 0;
+    width: 100%;}
+.container{
+        display:grid ;
+        grid-template-columns:auto auto auto;
+    }

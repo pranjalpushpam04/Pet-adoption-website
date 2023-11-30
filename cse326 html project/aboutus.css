@@ -1,0 +1,61 @@
+body{
+    background-image: url(BACKGROUND.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+   
+.navi{
+        text-align:center;
+    }
+    
+nav{
+        align-items:center;
+    text-align: center;
+    }
+    
+.navbar{
+       color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        font-size: 30px;
+    
+    }
+.maindiv{
+    background-color: aliceblue;
+    margin: 30px;
+}
+footer {
+        background-color: #999;
+        color: #fff;
+        text-align: center;
+        padding: 40px;
+        bottom: 0;
+        width: 100%;}
+.container{
+            display:grid ;
+            grid-template-columns:auto auto auto;
+        }
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-size:40px ;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+
+.textdiv
+{
+    width: 800px; 
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+    font-size: 30px;
+}
+.textimage{
+    display: grid;
+    grid-template-columns: auto auto;
+}
